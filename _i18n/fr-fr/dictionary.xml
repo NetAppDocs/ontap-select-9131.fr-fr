@@ -288,7 +288,6 @@
   <block id="18c27fdda3b31de582a5c418705a0eab" category="paragraph">La création du cluster peut prendre jusqu'à 30 minutes.</block>
   <block id="aa28e7538205e834e26c77f5630f8893" category="list-text">Contrôlez le processus de création en plusieurs étapes du cluster pour confirmer sa création.</block>
   <block id="037cb8cf634438a48c4a376dd2eaecea" category="paragraph">La page est automatiquement actualisée à intervalles réguliers.</block>
-  <block id="d4f87fedecd0cb118e567859f3b4f8b0" category="admonition">Si l'opération de création du cluster est lancée, mais que son exécution échoue, le mot de passe d'administration ONTAP que vous définissez risque de ne pas être enregistré. Dans ce cas, vous pouvez accéder à l'interface de gestion du cluster ONTAP Select à l'aide du mot de passe _changeme123_ du compte admin.</block>
   <block id="c29c0fa60d66b44a13904899d8712c68" category="open-title">Cluster multinœud</block>
   <block id="1c9615c8466b4b5438d388b4200a58b4" category="list-text">Si la fenêtre contextuelle *Bienvenue dans ONTAP Select* s'affiche, vérifiez que vous avez rempli les conditions préalables à la configuration et cliquez sur *OK*.</block>
   <block id="736cb4ef7019568859d8e044e044c906" category="list-text">Sur la page *pour commencer*, cliquez sur *Télécharger* et sélectionnez une licence sur votre poste de travail local et cliquez sur *Ouvrir* pour télécharger la licence. Répétez l'opération pour ajouter une deuxième licence.</block>
@@ -3841,4 +3840,5 @@ Intercluster
   <block id="cfc60e5db5da2e3856f4ae65f1b4493b" category="cell">Redimensionnement des machines virtuelles ONTAP Select (de petite à moyenne taille, de moyenne à grande taille)</block>
   <block id="5afd324114e926d9bb06b382e5c6f40e" category="cell">Application : la licence a expiré</block>
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">Oui (pas de délai de grâce)</block>
+  <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">Si l'opération de création du cluster est lancée, mais que son échec se termine, il se peut que le mot de passe d'administration ONTAP que vous définissez ne s'applique pas. Dans ce cas, contactez le support technique NetApp pour obtenir de l'aide.</block>
 </blocks>

@@ -101,7 +101,6 @@ En raison de l'environnement virtualisé utilisé avec ONTAP Select, la fonction
 La modification des propriétés des ports ONTAP, notamment la vitesse, le mode duplex et le contrôle de flux, n'est pas prise en charge.
 * Les processeurs de service
 * Migration de SVM
-* Reprise d'activité pour les machines virtuelles de stockage (reprise d'activité SVM)
 * Conformité SnapLock
 * Copies Snapshot inviolables
 * VMware HCX

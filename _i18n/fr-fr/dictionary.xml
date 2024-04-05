@@ -3836,4 +3836,5 @@ Intercluster
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">Oui (pas de délai de grâce)</block>
   <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">Si l'opération de création du cluster est lancée, mais que son échec se termine, il se peut que le mot de passe d'administration ONTAP que vous définissez ne s'applique pas. Dans ce cas, contactez le support technique NetApp pour obtenir de l'aide.</block>
   <block id="b5150f2681f3eb5a5b6aab4cbdadad34" category="paragraph">Les déploiements NAS virtuels (vNAS) prennent en charge les clusters ONTAP Select sur des SAN virtuels (VSAN), certains produits HCI et des types de baies externes de datastores. L'infrastructure sous-jacente de ces configurations apporte la résilience des datastores.</block>
+  <block id="8e59a8dddb8fd9611be1f2b3aca8c4fa" category="admonition">ONTAP Select 9.12.1 et versions ultérieures prennent désormais en charge le SVM DR comme source avec un maximum de 16 relations. La prise en charge de SVM DR est limitée à l'utilisation de la version ONTAP source aux versions +2, telles que 9.12.1 à 9.14.1.</block>
 </blocks>

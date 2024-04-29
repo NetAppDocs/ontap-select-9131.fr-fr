@@ -314,7 +314,6 @@
   <block id="eea1cec828c419810e082867558ec301" category="list-text">Cliquez sur *mise à niveau du nœud ONTAP Select*.</block>
   <block id="a864f71b844955db4e27746202712f1b" category="list-text">Sélectionnez et téléchargez l'image de mise à niveau appropriée répondant à toutes les invites, le cas échéant.</block>
   <block id="2e17a67d810d937603511ac8eb9044c5" category="paragraph">Consultez les notes de version pour obtenir des informations supplémentaires et connaître les procédures nécessaires avant de mettre à niveau un nœud ONTAP Select.</block>
-  <block id="202772c1f92d500b0765ed04693d11e5" category="list-text">Mettez à niveau le nœud ONTAP Select en suivant les procédures standard de mise à niveau de ONTAP avec le fichier de mise à niveau ONTAP Select.</block>
   <block id="2a883d1fe3d932e9f2fc25c99deaa4b9" category="inline-link-macro">Présentation de la mise à niveau ONTAP</block>
   <block id="c6747590f95713e2f203d616751eb4ea" category="paragraph"><block ref="c6747590f95713e2f203d616751eb4ea" category="inline-link-macro-rx"></block></block>
   <block id="46928a27773a23230df6e5bda4c3aeb9" category="section-title">Restaurez un nœud ONTAP Select</block>
@@ -3373,8 +3372,6 @@ Intercluster
   <block id="2e872cc50863e55fb4478e06d9231f07" category="summary">Vous devez installer l'utilitaire d'administration ONTAP Select Deploy et utiliser l'utilitaire afin de créer un cluster ONTAP Select.</block>
   <block id="da691cb71c1f879ed7bf93a9a845601a" category="section-title">Téléchargez l'image de la machine virtuelle</block>
   <block id="4457cc766e233dbf5bfec7006eded349" category="paragraph">Le pack ONTAP Select est téléchargeable depuis le site du support NetApp.</block>
-  <block id="428ed2a3ebb9fd9f1d5b11240dec37f3" category="paragraph">L'utilitaire d'administration ONTAP Select Deploy est proposé en tant que machine virtuelle basée sur le format OVF (Open Virtualization format). Le suffixe du fichier compressé unique<block ref="f81b21fb4e12a0e6917f955a9a305553" prefix=" " category="inline-code"></block>.</block>
-  <block id="97cb0dfea21cc934eab612152be86e44" category="list-text">Accédez au site de support NetApp à l'aide d'un navigateur Web et cliquez sur *Liens rapides de support*.</block>
   <block id="49f3378bb78e3d9783ddf1d56b07097e" category="list-text">Sélectionnez la version souhaitée du package.</block>
   <block id="a0ce89b8db68d7f3e4fb721f6bf6c751" category="list-text">Sélectionnez et téléchargez le pack approprié en répondant à toutes les invites.</block>
   <block id="8435c401e57e043b0c57edfb0a00c774" category="section-title">Vérifiez la signature OVA de déploiement ONTAP Select</block>
@@ -3427,7 +3424,6 @@ Intercluster
   <block id="32be4d152f2326423c990dde583d8768" category="list-text">Pointez votre navigateur vers l'utilitaire de déploiement à l'aide de l'adresse IP ou du nom de domaine :</block>
   <block id="cc0e719d3ebda123b94502d26d56a7eb" category="paragraph"><block ref="5ecf8b6869afd2efb46edbb07a649207" prefix="" category="inline-code"></block></block>
   <block id="533f8108cde4f7f1af2f1fb435cc4710" category="list-text">Indiquez le nom et le mot de passe du compte administrateur (admin) et connectez-vous.</block>
-  <block id="001ba89c3853493a35f9ab59f150b2d6" category="list-text">Si la fenêtre contextuelle *Bienvenue dans ONTAP Select* s'affiche, vérifiez les conditions préalables et cliquez sur *OK* pour continuer.</block>
   <block id="0dd298d83de1b2c4259299d711cefb70" category="list-text">AutoSupport (en option)</block>
   <block id="3b08ef3085886d9469e1dc839034e127" category="list-text">Serveur vCenter avec identifiants de compte (facultatif)</block>
   <block id="ccbbd15600c60abef8f9d734d84b4a4e" category="paragraph"><block ref="ccbbd15600c60abef8f9d734d84b4a4e" category="inline-link-macro-rx"></block></block>
@@ -3843,4 +3839,14 @@ Intercluster
   <block id="6e1144fb904fc4097d1a90d7908b66cc" category="paragraph">Depuis avril 2024, ONTAP Select Deploy 9.12.1 n'est plus disponible sur le site de support NetApp. Si vous exécutez ONTAP Select Deploy 9.12.1, vous devez effectuer une mise à niveau vers ONTAP Select Deploy 9.14.1P2 dès que possible. Pour plus d'informations, reportez-vous à la section <block ref="6635db952aa4480bb5bc591b4d6d32f6" category="inline-link-macro-rx"></block>.</block>
   <block id="044e8c7d609a0b31483ad9c6588ccd58" category="admonition">Le redimensionnement avec le type d'instance large est uniquement pris en charge sur ESXi.</block>
   <block id="afc299163ecc817c9d73bc5033f67218" category="admonition">La conversion entre les topologies à liaison unique et à liaisons multiples sur un cluster en cours d'exécution n'est pas prise en charge car il est possible qu'il soit nécessaire de convertir les différentes configurations de regroupement de cartes réseau requises pour chaque topologie.</block>
+  <block id="53e646b7dd5ddb95bd47f8626f05f330" category="paragraph">L'utilitaire d'administration de ONTAP Select Deploy est fourni sous forme de machine virtuelle (VM) basée sur la norme OVF (Open Virtualization format). Le suffixe du fichier compressé unique<block ref="f81b21fb4e12a0e6917f955a9a305553" prefix=" " category="inline-code"></block>. La machine virtuelle fournit le serveur de déploiement et les images d'installation pour les nœuds ONTAP Select.</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">Site de support NetApp</block>
+  <block id="a8b083480f6b19e605e4aaa8bd3425f1" category="list-text">Accédez au <block ref="a42716fdd3c80ae75cadfb8024b65de0" category="inline-link-macro-rx"></block> à l'aide d'un navigateur web et connectez-vous.</block>
+  <block id="cc97556611cf17d7a90f16087052f93b" category="list-text">Sélectionnez *Téléchargements* dans le menu, puis sélectionnez *Téléchargements* dans le menu déroulant.</block>
+  <block id="ab0ffe542101d39137dce2c19869d545" category="list-text">Sur la page Téléchargements, sous tous les produits A-Z, sélectionnez la lettre *O*.</block>
+  <block id="a896447aac9deddba0f8b7bc142c079f" category="list-text">Faites défiler vers le bas et sélectionnez *ONTAP Select*.</block>
+  <block id="d3a9739a4d6cf4fc9efd4b7704905c48" category="list-text">Consultez le contrat de licence de l'utilisateur final (CLUF) et sélectionnez *accepter et continuer*.</block>
+  <block id="b41a57a870dbb2988a82d37df74541fa" category="list-text">Si la fenêtre contextuelle *Bienvenue dans ONTAP Select* s'affiche, vérifiez les conditions préalables et sélectionnez *OK* pour continuer.</block>
+  <block id="4d63a206f9a467135d39dc9c9512fc9e" category="inline-link-macro">Chemins de mise à niveau ONTAP pris en charge</block>
+  <block id="8c3e5d2f8a26562237025f868ae58fd6" category="list-text">Mettez à niveau le nœud ONTAP Select en suivant les procédures standard de mise à niveau de ONTAP avec le fichier de mise à niveau ONTAP Select. Pour plus d'informations sur les chemins de mise à niveau pris en charge, reportez-vous au <block ref="641712e0b7bbcdbd0a030cb6eba15629" category="inline-link-macro-rx"></block>.</block>
 </blocks>

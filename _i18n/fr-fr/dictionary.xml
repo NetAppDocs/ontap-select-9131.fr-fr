@@ -2336,21 +2336,12 @@ Adaptateurs de secours : vmnic4, vmnic7, vmnic5</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Mentions légales</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Les mentions légales donnent accès aux déclarations de copyright, aux marques, aux brevets, etc.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Droits d'auteur</block>
-  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
-  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marques déposées</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, le logo NETAPP et les marques mentionnées sur la page des marques commerciales NetApp sont des marques commerciales de NetApp, Inc. Les autres noms de sociétés et de produits peuvent être des marques commerciales de leurs propriétaires respectifs.</block>
-  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
-  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevets</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Vous trouverez une liste actuelle des brevets appartenant à NetApp à l'adresse suivante :</block>
-  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
-  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Politique de confidentialité</block>
-  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
-  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Source ouverte</block>
-  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Les fichiers de notification fournissent des informations sur les droits d'auteur et les licences de tiers utilisés dans le logiciel NetApp.</block>
   <block id="e5b41f4225b398db953f0053c56d6542" category="summary">Lorsque vous commencez à explorer ONTAP Select et à planifier un déploiement, il est utile de vous familiariser avec la terminologie et les concepts clés.</block>
   <block id="c2bc0ae1706759fd80fd4a8f16903a8d" category="doc">Terminologie et concepts clés</block>
   <block id="391a56271aac0c7272e3e9bc2a840da1" category="list-text">ONTAP Select Deploy est l'utilitaire d'administration que vous utilisez pour déployer les clusters ONTAP Select. L'utilitaire de déploiement s'exécute sur une machine virtuelle Linux dédiée. Vous pouvez accéder à l'utilitaire de déploiement via l'interface utilisateur Web, le shell de gestion de la CLI et l'API REST.</block>
@@ -3830,7 +3821,6 @@ Intercluster
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">Oui (pas de délai de grâce)</block>
   <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">Si l'opération de création du cluster est lancée, mais que son échec se termine, il se peut que le mot de passe d'administration ONTAP que vous définissez ne s'applique pas. Dans ce cas, contactez le support technique NetApp pour obtenir de l'aide.</block>
   <block id="b5150f2681f3eb5a5b6aab4cbdadad34" category="paragraph">Les déploiements NAS virtuels (vNAS) prennent en charge les clusters ONTAP Select sur des SAN virtuels (VSAN), certains produits HCI et des types de baies externes de datastores. L'infrastructure sous-jacente de ces configurations apporte la résilience des datastores.</block>
-  <block id="8e59a8dddb8fd9611be1f2b3aca8c4fa" category="admonition">ONTAP Select 9.12.1 et versions ultérieures prennent désormais en charge le SVM DR comme source avec un maximum de 16 relations. La prise en charge de SVM DR est limitée à l'utilisation de la version ONTAP source aux versions +2, telles que 9.12.1 à 9.14.1.</block>
   <block id="5c4629755c5a0a5545bb649c6d58d899" category="list-text">Prise en charge de ONTAP Select Deploy mise à jour</block>
   <block id="f371e1e74365e433f105f30c886225bf" category="inline-link-macro">Notes de mise à jour de ONTAP Select 9.14.1</block>
   <block id="2183c79114d56889f4a8854299f703a5" category="list-text">Depuis avril 2024, ONTAP Select Deploy 9.13.1 n'est plus disponible sur le site de support NetApp. Si vous exécutez ONTAP Select Deploy 9.13.1, vous devez effectuer une mise à niveau vers ONTAP Select Deploy 9.14.1P2 dès que possible. Pour plus d'informations, reportez-vous à la section <block ref="6635db952aa4480bb5bc591b4d6d32f6" category="inline-link-macro-rx"></block>.</block>
@@ -3867,4 +3857,5 @@ Intercluster
   <block id="c3975d39937733b863b8e078a435a60a" category="paragraph">L'achat, la génération et le téléchargement d'un fichier de licence mis à jour permettent à Deploy de détecter les licences et les contrats de support renouvelés.</block>
   <block id="79416550309ddcac023464218d55a23d" category="paragraph">Si la date de fin d'un contrat de support pour le niveau de capacité est dépassée, le nœud peut rester en cours d'exécution, mais vous ne pouvez pas télécharger et installer les mises à jour de ONTAP, ou bien appeler le support technique NetApp pour obtenir de l'aide sans mettre à jour au préalable le contrat de support.</block>
   <block id="9b9568babf180c232b393ba5f95ff4c3" category="paragraph">Si un abonnement au pool de capacité expire, le système vous avertit d'abord mais après 30 jours, si le système s'arrête, il ne redémarre pas tant qu'un abonnement mis à jour n'est pas installé sur le serveur de déploiement.</block>
+  <block id="f99bb666310fb365b4d0029c161a384b" category="admonition">ONTAP Select 9.12.1 et versions ultérieures prennent désormais en charge SVM DR comme source et destination avec un maximum de 16 relations. La prise en charge du SVM DR est limitée à l'utilisation de la version ONTAP source aux versions +2. Par exemple, la source ONTAP Select 9.12.1 peut se connecter à ONTAP de destination versions 9.12.1, 9.13.1 ou 9.14.1.</block>
 </blocks>

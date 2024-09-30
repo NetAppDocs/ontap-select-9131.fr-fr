@@ -3295,7 +3295,6 @@ Intercluster
   <block id="58c277c116ff23ffb9879debb95b4968" category="list-text">Prise en charge de NVMe over TCP</block>
   <block id="db5f5d6e1e5a3e29724ce78258556ff1" category="list-text">Lorsque vous effectuez une mise à niveau vers ONTAP Select 9.13.1, vous devez disposer de la nouvelle licence pour prendre en charge NVMe over TCP. Cette licence est automatiquement incluse lorsque vous déployez ONTAP Select pour la première fois à partir de la version 9.13.1.</block>
   <block id="5f4c6121d4f63aaa5d6daebc2a2effee" category="list-text">Prise en charge de VMware ESXi mise à jour</block>
-  <block id="4d8daf3f51ebf7fefb4dfcf900e9b79d" category="list-text">À partir de ONTAP 9.13.1, VMware ESXi 8.0 GA (build 20513097) est pris en charge avec la version matérielle 4 et les versions ultérieures.</block>
   <block id="77e5d3b8719596b41c77222a6711e69b" category="section-title">ONTAP Select 9.12.1</block>
   <block id="05dd50ebf48db80deadf4c9a847c2ce4" category="paragraph">ONTAP Select 9.12.1 bénéficie de la plupart des nouveautés de la version actuelle du produit principal ONTAP. Elle n'inclut aucune nouvelle fonctionnalité ni amélioration spécifique à ONTAP Select.</block>
   <block id="7802fb8cc2dd2205ca511b49141235e0" category="section-title">ONTAP Select 9.11.1</block>
@@ -3858,4 +3857,5 @@ Intercluster
   <block id="79416550309ddcac023464218d55a23d" category="paragraph">Si la date de fin d'un contrat de support pour le niveau de capacité est dépassée, le nœud peut rester en cours d'exécution, mais vous ne pouvez pas télécharger et installer les mises à jour de ONTAP, ou bien appeler le support technique NetApp pour obtenir de l'aide sans mettre à jour au préalable le contrat de support.</block>
   <block id="9b9568babf180c232b393ba5f95ff4c3" category="paragraph">Si un abonnement au pool de capacité expire, le système vous avertit d'abord mais après 30 jours, si le système s'arrête, il ne redémarre pas tant qu'un abonnement mis à jour n'est pas installé sur le serveur de déploiement.</block>
   <block id="f99bb666310fb365b4d0029c161a384b" category="admonition">ONTAP Select 9.12.1 et versions ultérieures prennent désormais en charge SVM DR comme source et destination avec un maximum de 16 relations. La prise en charge du SVM DR est limitée à l'utilisation de la version ONTAP source aux versions +2. Par exemple, la source ONTAP Select 9.12.1 peut se connecter à ONTAP de destination versions 9.12.1, 9.13.1 ou 9.14.1.</block>
+  <block id="2908aba1afb68c480565ae68ebe3508c" category="list-text">À partir de ONTAP 9.13.1, VMware ESXi 8.0.1 GA (build 20513097) est pris en charge par la version matérielle 4 et ultérieure.</block>
 </blocks>
